@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Units 4–6 Translation Trainer</title>
+
+<style>
+body {
+    margin:0;
+    padding:30px;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+.container {
+    max-width:1000px;
+    margin:auto;
+}
+
+h1 {
+    text-align:center;
+    margin-bottom:40px;
+    color:#93c5fd;
+}
+
+.card {
+    background:rgba(255,255,255,0.08);
+    padding:25px;
+    border-radius:18px;
+    margin-bottom:22px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.3);
+}
+
+.num {
+    opacity:0.7;
+    margin-bottom:10px;
+}
+
+.ru {
+    font-size:25px;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+button {
+    background:#2563eb;
+    border:none;
+    color:white;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.2s;
+}
+
+button:hover {
+    background:#3b82f6;
+    transform:scale(1.03);
+}
+
+.answer {
+    display:none;
+    margin-top:18px;
+    padding:16px;
+    border-radius:12px;
+    background:#172554;
+    color:#bfdbfe;
+    font-size:22px;
+    line-height:1.5;
+}
+</style>
+<script type="text/javascript" nonce="cdb0f2d9542d40c4b109946ee34" src="//local.adguard.org?ts=1779992947969&amp;type=content-script&amp;dmn=chatgpt.com&amp;url=https%3A%2F%2Fchatgpt.com%2Fbackend-api%2Festuary%2Fcontent%3Fid%3Dfile_0000000056ac720c82a1bd86269eb9bb%26ts%3D494442%26p%3Dfs%26cid%3D1%26sig%3D5f9508a6eee678bc1b91227a4843e8e77480e7bac5496958cf97c9dd54e4467d%26v%3D0&amp;app=chrome.exe&amp;css=2&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script><script type="text/javascript" nonce="cdb0f2d9542d40c4b109946ee34" src="//local.adguard.org?ts=1779992947969&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script></head>
+
+<body>
+
+<div class="container">
+<h1>Units 4–6 Translation Trainer</h1>
+
+
+    <div class="card">
+      <div class="num">1</div>
+      <div class="ru">Многие эксперты считают само собой разумеющимся, что языки постепенно исчезнут.</div>
+      <button onclick="toggleAnswer('a1')">Показать перевод</button>
+      <div class="answer" id="a1">Many experts take it as read that languages will gradually disappear.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">2</div>
+      <div class="ru">Глобализация ускоряет изменения, и некоторые языки находятся на грани исчезновения.</div>
+      <button onclick="toggleAnswer('a2')">Показать перевод</button>
+      <div class="answer" id="a2">Globalisation accelerates change, and some languages are on the verge of extinction.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">3</div>
+      <div class="ru">Наши предки говорили на языке, который позже разделился на несколько диалектов.</div>
+      <button onclick="toggleAnswer('a3')">Показать перевод</button>
+      <div class="answer" id="a3">Our ancestors spoke a language that later split into several dialects.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">4</div>
+      <div class="ru">Некоторые малые сообщества остались ни с чем после того, как их культура исчезла бесследно.</div>
+      <button onclick="toggleAnswer('a4')">Показать перевод</button>
+      <div class="answer" id="a4">Some small communities were left with nothing after their culture disappeared without a trace.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">5</div>
+      <div class="ru">Этот язык происходит из древнегреческого, но теперь считается вымершим языком.</div>
+      <button onclick="toggleAnswer('a5')">Показать перевод</button>
+      <div class="answer" id="a5">This language originates from Ancient Greek, but it is now considered an extinct language.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">6</div>
+      <div class="ru">Если бы правительства лучше поддерживали обязательное образование, языковое разнообразие не исчезало бы так быстро.</div>
+      <button onclick="toggleAnswer('a6')">Показать перевод</button>
+      <div class="answer" id="a6">If governments supported compulsory education better, linguistic diversity would not disappear so quickly.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">7</div>
+      <div class="ru">У неё глубокое понимание происхождения языка.</div>
+      <button onclick="toggleAnswer('a7')">Показать перевод</button>
+      <div class="answer" id="a7">She has a thorough understanding of the origin of the language.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">8</div>
+      <div class="ru">Английский стал доминирующим языком во многих международных компаниях.</div>
+      <button onclick="toggleAnswer('a8')">Показать перевод</button>
+      <div class="answer" id="a8">English has become a dominant language in many international companies.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">9</div>
+      <div class="ru">Если бы люди не отказывались от родного языка, разнообразие было бы больше.</div>
+      <button onclick="toggleAnswer('a9')">Показать перевод</button>
+      <div class="answer" id="a9">If people didn’t abandon their native language, there would be greater diversity.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">10</div>
+      <div class="ru">Эксперты провели тщательное исследование развития языка.</div>
+      <button onclick="toggleAnswer('a10')">Показать перевод</button>
+      <div class="answer" id="a10">Experts carried out thorough research into the evolution of language.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">11</div>
+      <div class="ru">Цены резко колебались после краха рынка.</div>
+      <button onclick="toggleAnswer('a11')">Показать перевод</button>
+      <div class="answer" id="a11">Prices fluctuated sharply after the market crash.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">12</div>
+      <div class="ru">Многие заёмщики не выплатили свои кредиты во время экономического кризиса.</div>
+      <button onclick="toggleAnswer('a12')">Показать перевод</button>
+      <div class="answer" id="a12">Many borrowers defaulted on their loans during the economic crisis.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">13</div>
+      <div class="ru">Некоторые неопытные инвесторы лишь поверхностно занимались фондовым рынком.</div>
+      <button onclick="toggleAnswer('a13')">Показать перевод</button>
+      <div class="answer" id="a13">Some inexperienced investors only dabbled in the stock market.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">14</div>
+      <div class="ru">Компания рухнула после многих лет безрассудных спекуляций.</div>
+      <button onclick="toggleAnswer('a14')">Показать перевод</button>
+      <div class="answer" id="a14">The company crashed after years of reckless speculation.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">15</div>
+      <div class="ru">Люди были возмущены возмутительными ценами на предметы роскоши.</div>
+      <button onclick="toggleAnswer('a15')">Показать перевод</button>
+      <div class="answer" id="a15">People were outraged by the outrageous prices of luxury goods.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">16</div>
+      <div class="ru">Многие компании полагаются на запланированное устаревание, чтобы увеличить прибыль.</div>
+      <button onclick="toggleAnswer('a16')">Показать перевод</button>
+      <div class="answer" id="a16">Many companies rely on planned obsolescence to increase profits.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">17</div>
+      <div class="ru">Если бы люди меньше спекулировали, цены не колебались бы так резко.</div>
+      <button onclick="toggleAnswer('a17')">Показать перевод</button>
+      <div class="answer" id="a17">If people speculated less, prices would not fluctuate so sharply.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">18</div>
+      <div class="ru">Нефтяное лобби пыталось повлиять на решение правительства.</div>
+      <button onclick="toggleAnswer('a18')">Показать перевод</button>
+      <div class="answer" id="a18">The oil lobby tried to influence the government’s decision.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">19</div>
+      <div class="ru">После краха инвесторам пришлось справляться с последствиями.</div>
+      <button onclick="toggleAnswer('a19')">Показать перевод</button>
+      <div class="answer" id="a19">After the crash, investors had to pick up the pieces.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">20</div>
+      <div class="ru">У неё ненасытная тяга к сплетням и слухам.</div>
+      <button onclick="toggleAnswer('a20')">Показать перевод</button>
+      <div class="answer" id="a20">She has an insatiable appetite for gossip and speculation.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">21</div>
+      <div class="ru">Продолжительность жизни в развитых странах выше среднего.</div>
+      <button onclick="toggleAnswer('a21')">Показать перевод</button>
+      <div class="answer" id="a21">Life expectancy in developed countries is above average.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">22</div>
+      <div class="ru">Выяснилось, что многие молодые специалисты недовольны своей работой.</div>
+      <button onclick="toggleAnswer('a22')">Показать перевод</button>
+      <div class="answer" id="a22">It emerged that many young professionals were dissatisfied with their jobs.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">23</div>
+      <div class="ru">Правительство пытается поддерживать устойчивый экономический рост.</div>
+      <button onclick="toggleAnswer('a23')">Показать перевод</button>
+      <div class="answer" id="a23">The government is trying to sustain sustainable economic growth.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">24</div>
+      <div class="ru">В наши дни молодые люди стремятся к финансовой независимости в более раннем возрасте.</div>
+      <button onclick="toggleAnswer('a24')">Показать перевод</button>
+      <div class="answer" id="a24">Young people pursue financial independence at an earlier age nowadays.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">25</div>
+      <div class="ru">По приблизительной оценке, уровень рождаемости значительно снизился.</div>
+      <button onclick="toggleAnswer('a25')">Показать перевод</button>
+      <div class="answer" id="a25">At a rough estimate, the birth rate has fallen significantly.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">26</div>
+      <div class="ru">Компания продемонстрировала стабильные экономические показатели во время кризиса.</div>
+      <button onclick="toggleAnswer('a26')">Показать перевод</button>
+      <div class="answer" id="a26">The company demonstrated sustained economic performance during the crisis.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">27</div>
+      <div class="ru">Если численность трудоспособного населения продолжит сокращаться, коэффициент демографической нагрузки увеличится.</div>
+      <button onclick="toggleAnswer('a27')">Показать перевод</button>
+      <div class="answer" id="a27">If the working-age population continues to shrink, the dependency ratio will increase.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">28</div>
+      <div class="ru">Хотелось бы, чтобы правительства уделяли больше внимания устойчивому развитию.</div>
+      <button onclick="toggleAnswer('a28')">Показать перевод</button>
+      <div class="answer" id="a28">I wish governments paid more attention to sustainable development.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">29</div>
+      <div class="ru">Если бы я усерднее изучал экономику, сейчас я бы лучше понимал колебания рынка.</div>
+      <button onclick="toggleAnswer('a29')">Показать перевод</button>
+      <div class="answer" id="a29">If I had studied economics harder, I would have a better understanding of market fluctuations now.</div>
+    </div>
+    
+    <div class="card">
+      <div class="num">30</div>
+      <div class="ru">Если бы компании больше заботились об экологии, экономический рост был бы более устойчивым.</div>
+      <button onclick="toggleAnswer('a30')">Показать перевод</button>
+      <div class="answer" id="a30">If companies cared more about the environment, economic growth would be more sustainable.</div>
+    </div>
+    
+
+</div>
+
+<script>
+function toggleAnswer(id){
+  const el=document.getElementById(id);
+  if(el.style.display==="block"){
+      el.style.display="none";
+  } else {
+      el.style.display="block";
+  }
+}
+</script>
+
+</body>
+</html>
